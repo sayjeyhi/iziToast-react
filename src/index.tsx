@@ -1,23 +1,11 @@
-import * as React from 'react';
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.css";
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState<{
-    counter: number;
-  }>({
-    counter: 0
-  });
+import { IziToastSettings } from './types';
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++;
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval);
-    };
-  }, []);
-
-  return counter;
+export const useToast = (config: IziToastSettings) => {
+  return () => {
+    console.log('called with : ' , config);
+    iziToast.show(config)
+  };
 };

@@ -1,7 +1,7 @@
 {
   "name": "izitoast-react",
   "version": "1.0.0",
-  "description": "A wrapper for izitoast",
+  "description": "A wrapper for izitoast by @marcelodolza",
   "author": "sayjeyhi",
   "license": "Apache-2.0",
   "repository": "sayjeyhi/izitoast-react",
@@ -21,7 +21,9 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "izitoast": "^1.4.0"
+  },
   "peerDependencies": {
     "react": "^16.8.6"
   },
@@ -39,6 +41,7 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-typescript2": "^0.19.2",
     "rollup-plugin-url": "^2.1.0",
     "typescript": "^3.2.4"

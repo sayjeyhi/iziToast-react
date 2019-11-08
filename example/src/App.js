@@ -1,13 +1,19 @@
 import React from 'react'
 
-import { useMyHook } from 'izitoast-react'
+import { useToast } from 'izitoast-react'
 
 const App = () => {
-  const example = useMyHook()
+  const showMessage = useToast({
+    title: 'Hi',
+    message: 'شما با موفقیت وارد شدید',
+    rtl: true,
+  });
+
   return (
     <div>
-      {example}
+      <button onClick={showMessage} >Show</button>
     </div>
   )
-}
+};
+
 export default App
