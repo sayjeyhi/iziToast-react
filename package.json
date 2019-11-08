@@ -1,17 +1,33 @@
 {
   "name": "izitoast-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for izitoast by @marcelodolza",
   "author": "sayjeyhi",
   "license": "Apache-2.0",
   "repository": "sayjeyhi/izitoast-react",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
   },
+  "keywords": [
+    "izitoast",
+    "react-hook",
+    "toast-hook",
+    "toaster",
+    "toast",
+    "message",
+    "notification",
+    "alert",
+    "info,",
+    "success",
+    "warning",
+    "confirm",
+    "question"
+  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },

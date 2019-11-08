@@ -5,8 +5,7 @@ import { useToast } from 'izitoast-react'
 const App = () => {
   const showMessage = useToast({
     title: 'Hi',
-    message: 'شما با موفقیت وارد شدید',
-    rtl: true,
+    message: 'Message with fancy animation',
   });
 
   return (

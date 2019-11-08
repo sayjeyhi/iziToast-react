@@ -270,7 +270,7 @@ export interface IziToastProgress {
   start(): void;
 }
 
-export interface useIziToast {
+export interface IziToast {
   /**
    * Sets default values.
    * @param settings Settings to set as default.
@@ -326,5 +326,5 @@ export interface useIziToast {
   question(settings: IziToastSettings): void;
 }
 
-declare const useToast: useIziToast;
-export default useToast;
+declare const iziToast: IziToast;
+export default iziToast;

@@ -1,6 +1,6 @@
 # izitoast-react
 
-> A react wrapper for izitoast
+> A react wrapper for izitoast with react hooks
 
 [![NPM](https://img.shields.io/npm/v/izitoast-react.svg)](https://www.npmjs.com/package/izitoast-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
