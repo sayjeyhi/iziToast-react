@@ -5,7 +5,7 @@ import { useToast } from 'izitoast-react'
 const App = () => {
   const showMessage = useToast({
     title: 'Hi',
-    message: 'Message with fancy animation',
+    message: 'Message with fancy animation'
   });
 
   return (
