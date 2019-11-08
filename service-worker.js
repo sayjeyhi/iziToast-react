@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/izitoast-react/precache-manifest.d89c9e2d23e16a2b692c949b79292d03.js"
+  "/izitoast-react/precache-manifest.59a387f1aa5d68b5852d9cb41fb5ca17.js"
 );
 
 self.addEventListener('message', (event) => {
