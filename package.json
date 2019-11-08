@@ -2,7 +2,6 @@
   "name": "izitoast-react",
   "version": "1.0.1",
   "description": "A wrapper for izitoast by @marcelodolza",
-  "author": "sayjeyhi",
   "license": "Apache-2.0",
   "repository": "sayjeyhi/izitoast-react",
   "main": "./dist/index.js",
@@ -28,9 +27,18 @@
     "confirm",
     "question"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+
+  "authors": [
+    {
+      "name": "Marcelo Dolce",
+      "email": "dolcemarcelo@gmail.com",
+      "homepage": "http://www.marcelodolce.com"
+    },{
+      "name": "Jafar Rezaei (sayjeyhi)",
+      "email": "sayjeyhi@gmail.com",
+      "homepage": "http://jrjs.ir"
+    }
+  ],
   "scripts": {
     "test": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
