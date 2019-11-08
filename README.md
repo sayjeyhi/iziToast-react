@@ -30,6 +30,8 @@ const App = () => {
 };
 ```
 
+Demo : [CodeSandbox](https://codesandbox.io/s/izi-toast-react-wrapper-ynrrn)
+
 ## License
 
 React wrapper [sayjeyhi](https://github.com/sayjeyhi)
