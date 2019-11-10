@@ -15,12 +15,19 @@ npm install --save izitoast-react
 ```tsx
 import * as React from 'react'
 
-import { useToast } from 'izitoast-react'
+import { useToast, immediateToast } from 'izitoast-react'
 
 const App = () => {
   const showMessage = useToast({
     message: 'Show my message :)',
   });
+
+  useEffect(() => {
+    immediateToast('info', {
+      message: 'Hi, how it is going'
+    })
+  });
+
 
   return (
     <div>
