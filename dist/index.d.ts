@@ -2,6 +2,7 @@ import "izitoast/dist/css/iziToast.css";
 declare type IziToastPosition = 'bottomRight' | 'bottomLeft' | 'topRight' | 'topLeft' | 'topCenter' | 'bottomCenter' | 'center';
 declare type IziToastTransitionIn = 'bounceInLeft' | 'bounceInRight' | 'bounceInUp' | 'bounceInDown' | 'fadeIn' | 'fadeInDown' | 'fadeInUp' | 'fadeInLeft' | 'fadeInRight' | 'flipInX';
 declare type IziToastTransitionOut = 'fadeOut' | 'fadeOutUp' | 'fadeOutDown' | 'fadeOutLeft' | 'fadeOutRight' | 'flipOutX';
+declare type immediateTypes = 'info' | 'error' | 'warning' | 'success' | 'question';
 interface IziToastSettings {
     /**
      * Id of the toast
@@ -253,5 +254,12 @@ interface IziToastSettings {
      */
     onClosed?: (settings: IziToastSettings, toast: HTMLDivElement, closedBy: string) => void;
 }
-declare function useToast(config: IziToastSettings): Function;
-export { useToast };
+export interface IziToastProgress {
+    pause(): void;
+    reset(): void;
+    resume(): void;
+    start(): void;
+}
+export declare const immediateToast: (type: immediateTypes, config: IziToastSettings) => void;
+export declare const useToast: (config: IziToastSettings) => Function;
+export {};
