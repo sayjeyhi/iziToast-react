@@ -1,4 +1,3 @@
-import "izitoast/dist/css/iziToast.css";
 declare type IziToastPosition = 'bottomRight' | 'bottomLeft' | 'topRight' | 'topLeft' | 'topCenter' | 'bottomCenter' | 'center';
 declare type IziToastTransitionIn = 'bounceInLeft' | 'bounceInRight' | 'bounceInUp' | 'bounceInDown' | 'fadeIn' | 'fadeInDown' | 'fadeInUp' | 'fadeInLeft' | 'fadeInRight' | 'flipInX';
 declare type IziToastTransitionOut = 'fadeOut' | 'fadeOutUp' | 'fadeOutDown' | 'fadeOutLeft' | 'fadeOutRight' | 'flipOutX';

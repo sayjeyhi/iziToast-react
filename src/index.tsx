@@ -1,6 +1,4 @@
 import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.css";
-
 
 type IziToastPosition = 'bottomRight' | 'bottomLeft' | 'topRight' | 'topLeft' | 'topCenter' | 'bottomCenter' | 'center';
 type IziToastTransitionIn = 'bounceInLeft' | 'bounceInRight' | 'bounceInUp' | 'bounceInDown' | 'fadeIn' | 'fadeInDown' | 'fadeInUp' | 'fadeInLeft' | 'fadeInRight' | 'flipInX';
