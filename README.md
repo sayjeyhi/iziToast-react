@@ -16,6 +16,7 @@ npm install --save izitoast-react
 import * as React from 'react'
 
 import { useToast, immediateToast } from 'izitoast-react'
+import 'izitoast-react/dist/iziToast.css';
 
 const App = () => {
   const showMessage = useToast({
