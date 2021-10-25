@@ -1,8 +1,20 @@
 # izitoast-react
 
+Elegant, responsive, flexible and lightweight notification plugin with no dependencies.
+
 > A react wrapper for izitoast with react hooks
 
 [![NPM](https://img.shields.io/npm/v/izitoast-react.svg)](https://www.npmjs.com/package/izitoast-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+
+Fast | Responsive | Animated | Lightweight | Customizable | No dependencies | Retina
+:-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: 
+![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo]
+
+
+- All modern browsers are supported (Tested in Chrome, Firefox, Opera, Safari, IE10+ and Edge).
+- Bugs? create an issue [here](https://github.com/marcelodolza/iziToast/issues).
+
 
 ## Install
 
