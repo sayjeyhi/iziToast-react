@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react'
 
 import { useToast, immediateToast } from 'izitoast-react'
+import 'izitoast-react/dist/iziToast.css';
 
 const App = () => {
   const showMessage = useToast({
