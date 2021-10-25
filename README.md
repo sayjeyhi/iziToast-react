@@ -7,6 +7,10 @@ Elegant, responsive, flexible and lightweight notification plugin with no depend
 [![NPM](https://img.shields.io/npm/v/izitoast-react.svg)](https://www.npmjs.com/package/izitoast-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 
+[logo]: http://i.imgur.com/hCYIhep.png "Check icon"
+[new]: http://i.imgur.com/41zuVDk.png "New label"
+[bug]: http://i.imgur.com/92lu4ln.png "Bug label"
+
 Fast | Responsive | Animated | Lightweight | Customizable | No dependencies | Retina
 :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: 
 ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo] | ![alt text][logo]
