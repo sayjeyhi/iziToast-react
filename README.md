@@ -116,7 +116,6 @@ const App = () => {
 }
 ```
 
-
 ARGUMENT | DEFAULT VALUE | DESCRIPTION
 --- | --- | ---
 | class | '' | The class that will be applied to the toast. It may be used as a reference.
@@ -134,36 +133,35 @@ color | '' | It can be #hexadecimal, pre-defined themes like blue, red, green an
 icon | '' | Icon class (font-icon of your choice, Icomoon, Fontawesome etc.).
 iconText | '' | Icon text (font-icon using text, Material Icons, etc.).
 iconColor | '' | Icon color.
-iconUrl NEW | null | Address of file to be loaded. Example
-image | '' | Cover image. Example
-imageWidth | 50 | Width of cover image. Example 100px
-maxWidth | null | set maxWidth of toast. Example 500px
+iconUrl | null | Address of file to be loaded. |
+image | '' | Cover image. |
+imageWidth | 50 | Width of cover image. | 100px
+maxWidth | null | set maxWidth of toast. | 500px
 zindex | 99999 | The z-index CSS attribute of the toast
-layout | 1 | Example Small e Example Medium. It can be 1 or 2, or use another layout, creating the class like this: ".iziToast-layout3"
-balloon | false | Applies a balloon like toast. Example.
+layout | 1 | | Small e | Medium. It can be 1 or 2, or use another layout, creating the class like this: ".iziToast-layout3"
+balloon | false | Applies a balloon like toast. |.
 close | true | Show "x" close button
 closeOnEscape | false | Allows to close toast using the Esc key.
-closeOnClick NEW | false | Allows to close toast clicking on it.
+closeOnClick | false | Allows to close toast clicking on it.
 rtl | false | RTL option
 position | 'bottomRight' | Where it will be shown. It can be bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter or center.
-target | '' | Fixed place where you want to show the toasts. Example
+target | '' | Fixed place where you want to show the toasts. |
 targetFirst | true | Add toast to first position.
 toastOnce DEPRECIATED | false | Waits for another toast to be closed on 'onClosed' function. You'll need an ID to use it.
-displayMode NEW | 0 | - Waits until the toast is closed so you can open it (Use 1 or 'once'). Example
-- Replaces the toast that was already open (Use 2 or 'replace'). Example
+displayMode | 0 | - Waits until the toast is closed so you can open it (Use 1 or 'once'). - Replaces the toast that was already open (Use 2 or 'replace').
 timeout | 5000 | Amount in milliseconds to close the toast or false to disable.
 drag | true | Drag Feature. Is used to close the toast.
-pauseOnHover | true | Pause the toast timeout while the cursor is on it. Example
-resetOnHover | false | Reset the toast timeout while the cursor is on it. Example
+pauseOnHover | true | Pause the toast timeout while the cursor is on it. |
+resetOnHover | false | Reset the toast timeout while the cursor is on it. |
 progressBar | true | Enable timeout progress bar.
 progressBarColor | '' | Progress bar color.
 progressBarEasing | 'linear' | Animation Easing of progress bar.
 overlay | false | Enables display the Overlay layer on the page.
 overlayClose | false | Allows to close toast clicking on the Overlay.
 overlayColor | 'rgba(0, 0, 0, 0.6)' | Overlay background color.
-animateInside | true | Enable animations of elements in the toast. Example True and Example False.
-buttons | {} | You can specify an array of buttons. Example
-inputs NEW | {} | You can specify an array of inputs. Example
+animateInside | true | Enable animations of elements in the toast. | True and | False.
+buttons | {} | You can specify an array of buttons. |
+inputs | {} | You can specify an array of inputs. |
 transitionIn | 'fadeInUp' | Default toast open animation. It can be: bounceInLeft, bounceInRight, bounceInUp, bounceInDown, fadeIn, fadeInDown, fadeInUp, fadeInLeft, fadeInRight or flipInX.
 transitionOut | 'fadeOut' | Default toast close animation. It can be: fadeOut, fadeOutUp, fadeOutDown, fadeOutLeft, fadeOutRight, flipOutX
 transitionInMobile | 'fadeInUp' | Default toast opening mobile transition.
