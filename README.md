@@ -32,28 +32,32 @@ npm install --save izitoast-react
 ## Usage
 
 ```tsx
-import * as React from 'react'
+import React, { useEffect } from "react";
 
-import { useToast, immediateToast } from 'izitoast-react'
-import 'izitoast-react/dist/iziToast.css';
+// Import these items
+import { useToast, immediateToast } from "izitoast-react";
+import "izitoast-react/dist/iziToast.css";
 
 const App = () => {
   const showMessage = useToast({
-    message: 'Show my message :)',
+    title: "Test",
+    message: "Show my message :)",
+    theme: "light",
+    icon: "warn"
   });
 
   useEffect(() => {
-    immediateToast('info', {
-      message: 'Hi, how it is going'
-    })
+    immediateToast("info", {
+      message: "Hi, how it is going",
+      timeout: 500000
+    });
   });
-
 
   return (
     <div>
-      <button onClick={showMessage} >Show</button>
+      <button onClick={showMessage}>Show</button>
     </div>
-  )
+  );
 };
 ```
 
