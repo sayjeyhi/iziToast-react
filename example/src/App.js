@@ -1,25 +1,29 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from "react";
 
-import { useToast, immediateToast } from 'izitoast-react'
-import 'izitoast-react/dist/iziToast.css';
+// lib
+import { useToast, immediateToast } from "izitoast-react";
+import "izitoast-react/dist/iziToast.css";
 
 const App = () => {
   const showMessage = useToast({
-    title: 'Hi',
-    message: 'Message with fancy animation'
+    title: "Test",
+    message: "Show my message :)",
+    theme: "light",
+    icon: "warn"
   });
 
   useEffect(() => {
-    immediateToast('info', {
-      message: 'Hi, how it is going'
-    })
+    immediateToast("info", {
+      message: "Hi, how it is going",
+      timeout: 500000
+    });
   });
 
   return (
     <div>
-      <button onClick={showMessage} >Show</button>
+      <button onClick={showMessage}>Show</button>
     </div>
-  )
+  );
 };
 
-export default App
+export default App;
