@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/izitoast-react/static/css/main.2c6a48fe.chunk.css",
-    "main.js": "/izitoast-react/static/js/main.a55179d2.chunk.js",
-    "main.js.map": "/izitoast-react/static/js/main.a55179d2.chunk.js.map",
-    "runtime-main.js": "/izitoast-react/static/js/runtime-main.26ffaa62.js",
-    "runtime-main.js.map": "/izitoast-react/static/js/runtime-main.26ffaa62.js.map",
-    "static/js/2.4e2a9b36.chunk.js": "/izitoast-react/static/js/2.4e2a9b36.chunk.js",
-    "static/js/2.4e2a9b36.chunk.js.map": "/izitoast-react/static/js/2.4e2a9b36.chunk.js.map",
+    "main.css": "/izitoast-react/static/css/main.948652ac.chunk.css",
+    "main.js": "/izitoast-react/static/js/main.9cc64faf.chunk.js",
+    "main.js.map": "/izitoast-react/static/js/main.9cc64faf.chunk.js.map",
+    "runtime-main.js": "/izitoast-react/static/js/runtime-main.adb64297.js",
+    "runtime-main.js.map": "/izitoast-react/static/js/runtime-main.adb64297.js.map",
+    "static/js/2.73968574.chunk.js": "/izitoast-react/static/js/2.73968574.chunk.js",
+    "static/js/2.73968574.chunk.js.map": "/izitoast-react/static/js/2.73968574.chunk.js.map",
     "index.html": "/izitoast-react/index.html",
-    "precache-manifest.59a387f1aa5d68b5852d9cb41fb5ca17.js": "/izitoast-react/precache-manifest.59a387f1aa5d68b5852d9cb41fb5ca17.js",
+    "precache-manifest.a9de0398d16c82200d51a26755063293.js": "/izitoast-react/precache-manifest.a9de0398d16c82200d51a26755063293.js",
     "service-worker.js": "/izitoast-react/service-worker.js",
-    "static/css/main.2c6a48fe.chunk.css.map": "/izitoast-react/static/css/main.2c6a48fe.chunk.css.map"
+    "static/css/main.948652ac.chunk.css.map": "/izitoast-react/static/css/main.948652ac.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.26ffaa62.js",
-    "static/js/2.4e2a9b36.chunk.js",
-    "static/css/main.2c6a48fe.chunk.css",
-    "static/js/main.a55179d2.chunk.js"
+    "static/js/runtime-main.adb64297.js",
+    "static/js/2.73968574.chunk.js",
+    "static/css/main.948652ac.chunk.css",
+    "static/js/main.9cc64faf.chunk.js"
   ]
 }
