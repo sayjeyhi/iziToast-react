@@ -62,7 +62,7 @@
     "cross-env": "^5.2.0",
     "gh-pages": "^2.0.1",
     "react": ">=16.8.6 <=17.0.2",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "rollup": "^1.1.2",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.0",
