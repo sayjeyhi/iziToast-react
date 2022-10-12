@@ -16,16 +16,12 @@ jobs:
           persist-credentials: false
 
       - name: Build 🧩
-        run: cd examplecp -r ./public/ ./build/
+        run: yarn predeploy
 
-      - name: Change to prod 🧩
-        run: |
-          sed -i -e "s/opppp2/$SLUG/g" ./build/index.html
-          
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: example/build
           CLEAN: true # Automatically remove deleted files from the deploy branch
