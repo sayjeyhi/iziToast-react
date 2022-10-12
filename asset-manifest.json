@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/izitoast-react/static/css/main.948652ac.chunk.css",
-    "main.js": "/izitoast-react/static/js/main.9cc64faf.chunk.js",
-    "main.js.map": "/izitoast-react/static/js/main.9cc64faf.chunk.js.map",
-    "runtime-main.js": "/izitoast-react/static/js/runtime-main.adb64297.js",
-    "runtime-main.js.map": "/izitoast-react/static/js/runtime-main.adb64297.js.map",
-    "static/js/2.73968574.chunk.js": "/izitoast-react/static/js/2.73968574.chunk.js",
-    "static/js/2.73968574.chunk.js.map": "/izitoast-react/static/js/2.73968574.chunk.js.map",
-    "index.html": "/izitoast-react/index.html",
-    "precache-manifest.a9de0398d16c82200d51a26755063293.js": "/izitoast-react/precache-manifest.a9de0398d16c82200d51a26755063293.js",
-    "service-worker.js": "/izitoast-react/service-worker.js",
-    "static/css/main.948652ac.chunk.css.map": "/izitoast-react/static/css/main.948652ac.chunk.css.map"
+    "main.css": "/static/css/main.948652ac.chunk.css",
+    "main.js": "/static/js/main.113e6df4.chunk.js",
+    "main.js.map": "/static/js/main.113e6df4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c0949aa3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c0949aa3.js.map",
+    "static/js/2.73968574.chunk.js": "/static/js/2.73968574.chunk.js",
+    "static/js/2.73968574.chunk.js.map": "/static/js/2.73968574.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.365089c970db5751053a95ed48021236.js": "/precache-manifest.365089c970db5751053a95ed48021236.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.948652ac.chunk.css.map": "/static/css/main.948652ac.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.adb64297.js",
+    "static/js/runtime-main.c0949aa3.js",
     "static/js/2.73968574.chunk.js",
     "static/css/main.948652ac.chunk.css",
-    "static/js/main.9cc64faf.chunk.js"
+    "static/js/main.113e6df4.chunk.js"
   ]
 }
